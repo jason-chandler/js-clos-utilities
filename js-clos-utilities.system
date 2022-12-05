@@ -1,0 +1,9 @@
+;; -*- mode:lisp -*-
+
+(defsystem "js-clos-utilities"
+  :depends-on ("remote-eval")
+  :serial t
+  :components ((:file "packages")
+               (:file "js-object")
+               (:file "console")))
+
